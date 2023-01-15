@@ -9,6 +9,10 @@
   --font-family-title: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: var(--font-family-base);
 }
@@ -20,4 +24,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .section-tagline, .card-category {
   color: var(--color-primary);
+}
+
+.visually-hidden {
+  display: none;
 }
