@@ -3,13 +3,12 @@
 /* Document
    ========================================================================== */
 
-
 /**
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 
- html {
+html {
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
 }
@@ -338,7 +337,9 @@ template {
   --line-height-big: 1.8;
 }
 
-*, *:before, *:after { 
+*,
+*:before,
+*:after {
   box-sizing: border-box;
 }
 
@@ -467,7 +468,7 @@ a:active {
 
 .section-footer {
   padding: var(--section-footer-padding);
-  text-align: var(--section-header-align);
+  text-align: var(--section-footer-align);
 }
 
 .card-category,
