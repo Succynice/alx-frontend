@@ -315,14 +315,16 @@ template {
 /*# sourceMappingURL=normalize.min.css.map */
 
 :root {
-  --color-primary:#d73953;
+  --color-primary: #d73953;
   --color-black: #090909;
   --color-white: #ffffff;
   --color-light-grey: #f3f3f3;
   --color-dark-grey: #353535;
   --text-color: var(--color-black);
-  --font-family-base: 'Open Sans', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif';
-  --font-family-title: 'Raleway','Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif';
+  --font-family-base: "Open Sans", "Helvetica Neue", "Helvetica", "Arial",
+    "sans-serif";
+  --font-family-title: "Raleway", "Helvetica Neue", "Helvetica", "Arial",
+    "sans-serif";
   --font-size-small: 1.2rem;
   --font-size-medium: 1.6rem;
   --font-size-large: 1.8rem;
@@ -366,12 +368,13 @@ template {
   --header-logo-link-position: absolute;
   --header-logo-link-top: -1rem;
   --header-logo-link-left: 0;
-  --transition-duration: .3s;
+  --transition-duration: 0.3s;
   --transition-cubic-bezier: cubic-bezier(0.17, 0.67, 0, 1.01);
-
 }
 
-*, *:before, *:after{
+*,
+*:before,
+*:after {
   box-sizing: border-box;
 }
 
@@ -387,7 +390,8 @@ body {
   line-height: var(--line-height-base);
 }
 
-body, a:link {
+body,
+a:link {
   color: var(--text-color);
 }
 
@@ -432,14 +436,20 @@ a:active {
 }
 
 .visually-hidden {
-  display: none
+  display: none;
 }
 
-.card-category, .section-tagline {
-  color: var(--color-primary)
+.card-category,
+.section-tagline {
+  color: var(--color-primary);
 }
 
-h1, h2, h3, h4, h5, h6{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: var(--font-family-title);
   font-weight: var(--font-weight-bold);
 }
@@ -449,7 +459,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .header-logo {
-  position: var(--header-logo-position)
+  position: var(--header-logo-position);
 }
 
 .header-logo a {
@@ -472,7 +482,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 .navbar-menu {
- float: right;
+  float: right;
 }
 
 .nav {
@@ -529,14 +539,14 @@ h1, h2, h3, h4, h5, h6{
   padding: var(--section-body-padding);
 }
 
-.card-services .card-title{
+.card-services .card-title {
   margin: 0;
 }
 
 .card-services a {
   display: block;
   padding: 2rem;
-  background-color: var(--color-light-grey)
+  background-color: var(--color-light-grey);
 }
 
 .card-services a:hover {
@@ -599,13 +609,12 @@ h1, h2, h3, h4, h5, h6{
   right: 0;
   left: 0;
   bottom: 0;
-  content: ""
+  content: "";
 }
 
 .card-work:hover .card-title {
   opacity: 1;
 }
-
 
 .section-footer {
   padding: var(--section-footer-padding);
@@ -653,7 +662,7 @@ ul.row {
   width: 50%;
 }
 
-.row::after{
+.row::after {
   content: "";
   display: table;
   clear: both;
@@ -663,14 +672,14 @@ ul.row {
   text-align: center;
 }
 
-.card-testimonial .card-avatar{
+.card-testimonial .card-avatar {
   border-radius: 50%;
   width: 10rem;
   height: 10rem;
 }
 
 .card-testimonial .card-quote cite {
-  display:block;
+  display: block;
   padding-top: 1rem;
   color: var(--color-primary);
 }
@@ -693,7 +702,7 @@ ul.row {
   padding: var(--footer-padding);
 }
 
-.footer ul{
+.footer ul {
   text-align: right;
 }
 
